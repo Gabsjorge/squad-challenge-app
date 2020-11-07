@@ -1,21 +1,32 @@
 import './App.css';
 
+import logo from './assets/venturusLogo.png';
+import Navbar from './React components/Navbar/Navbar';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Navbar />
+
+      <br />
+
+      <div className="row">
+        <div className="column">
+          <div className="myteamsbox">
+            <p>Bla</p>
+          </div>
+        </div>
+        <div className="column">
+          <div className="top5box">
+            <p>Ble</p>
+          </div>
+          <div className="topplayersbox">
+            <p>Bli</p>
+          </div>
+        </div>
+      </div>
+
+      <footer></footer>
     </div>
   );
 }
